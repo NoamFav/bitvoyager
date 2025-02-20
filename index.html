@@ -14,7 +14,7 @@
     <script>
       if ("serviceWorker" in navigator) {
         navigator.serviceWorker
-          .register("coi-serviceworker.js")
+          .register("public/coi-serviceworker.js")
           .then(() => console.log("COI Service Worker registered."))
           .catch((error) =>
             console.error("Failed to register COI Service Worker:", error),
